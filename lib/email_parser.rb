@@ -12,7 +12,7 @@ class EmailParser
   end
   
   def parse
-    self.split(",")
+    @emails.split(",")
   end
   
 end
